@@ -5,7 +5,7 @@ try{
         useNewUrlParser: true,
         useUnifiedTopology: true
     });
-    console.log("Database Running width sucess");
+    console.log("Database Running with sucess");
 }catch(err){
     console.log("Error Dtabase Acess: " + err);
 }
