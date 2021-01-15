@@ -15,4 +15,6 @@ app.use((req, res, next)=>{
 app.use(express.json());
 app.use(routes);
 
-app.listen(5000, ()=>console.log("Sever Running at port https://localhost:5000"));
+const PORT = process.env.PORT;
+
+app.listen(PORT, ()=>console.log(`Sever Running at port https://localhost:${PORT}`));
